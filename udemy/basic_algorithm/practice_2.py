@@ -103,8 +103,8 @@ def memo_fib(n):
         return memo[n]
     return _fib(n)
 
-for i in range(35):
-    print(memo_fib(i))
+# for i in range(35):
+#     print(memo_fib(i))
 # for i in range(35):
 #     print(memo_fib(i))
 
@@ -113,6 +113,74 @@ merge_list = [17, 11, 12, 5, 14, 9, 6, 16, 4, 10, 1, 19, 13, 15, 0, 2, 3, 18, 7,
 # 与えられた配列を二つに分割
 # 二つの部分配列をmerge_sortでソート
 # 得られた二つのソート済み配列をマージ
+
+# まず真ん中の値をmidとする
+# それらに合わせて二つに分割
+# 再起的に限度を作って処理をする
 def merge_sort(arr):
+    if len(arr) < 2:
+        return arr
     mid = len(arr) // 2
-    return merge_sort(arr[:])    
+    return merge(merge_sort(arr[:mid]), merge_sort(arr[mid:]))
+
+# arrfとarrbを比べて、一番左の値が小さいほうを取り出し、左に
+# 再起的に処理をする
+# どちらかの配列が0だったら片方を返す
+def merge(arrf, arrb):
+    if len(arrf) < 1:
+        return arrb
+    if len(arrb) < 1:
+        return arrf
+    if arrf[0] <= arrb[0]:
+        return [arrf[0]] + merge(arrf[1:], arrb)
+    else:
+        return [arrb[0]] + merge(arrf, arrb[1:])
+    
+# org_list = [17, 11, 12, 5, 14, 9, 6, 16, 4, 10, 1, 19, 13, 15, 0, 2, 3, 18, 7, 8]
+# print(merge_sort(org_list))
+
+# クイックソート
+# ピポットを基準に二つに分割
+# pより小さい要素は左、大きい要素は右へ
+def quick_sort(arr):
+    if len(arr) < 2:
+        return arr
+    p = arr[0]
+    arrf, arrb = divide(p, arr[1:])
+    return quick_sort(arrf) + [p] + quick_sort(arrb)
+
+# 分ける関数
+def divide(p, arr):
+    ansf = []
+    ansb = []
+    for j in arr:
+        if p > j:
+            ansf.append(j)
+        else:
+            ansb.append(j)
+    return ansf, ansb
+
+org_list =  [17, 11, 12, 5, 14, 9, 6, 16, 4, 10, 1, 19, 13, 15, 0, 2, 3, 18, 7, 8]
+# print(quick_sort(org_list))
+
+# バケットソート
+# データに対応するバケットを用意する
+# バケットにぶち込む
+# 順番に取り出す
+
+# カウンタ配列をつくる
+# maxの数が、配列の要素の数となる
+def bucket_sort(arr):
+    arrc = [0] * (max(arr)+1)
+    for i in arr:
+        arrc[i] += 1
+    
+    ans = []
+
+    for j in range(0, len(arrc)):
+        # 配列をぶち込む
+        ans.extend([j]*arrc[j])
+
+    return ans
+
+print(bucket_sort(org_list))
