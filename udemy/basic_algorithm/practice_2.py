@@ -60,5 +60,59 @@ def exchange(arr, i):
         if arr[j] < arr[j-1]:
             arr[j-1], arr[j] = arr[j], arr[j-1]
 
-buble_sort(org_list)
-print(org_list)
+# buble_sort(org_list)
+# print(org_list)
+
+# ②
+# 再帰関数を使う
+# 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 
+def fib(n):
+    arr = [0] * (n+1)
+    arr[0] = 1
+    for i in range(0, n):
+        arr[i+1] = arr[i] + arr[i-1]
+        print(arr[i])
+# 再帰関数を使えていない
+
+# 分割統治法
+# 与えられた問題を分割
+# 再帰的に解く
+# 解いた問題をマージ
+# # フィボナッチ数列nこうは、n-1こうとn-2こうの足し算
+# def _fib(n):
+#     if n == 1 or n == 0:
+#         return 1
+#     return _fib(n-1) + _fib(n-2)
+
+# for i in range(35):
+#     print(_fib(i))
+
+# メモかfib
+# 動的計画法
+# 一度計算した値をmemoに保存
+def memo_fib(n):
+    memo = [None] * (n+1)
+
+    def _fib(n):
+        if n == 0 or n == 1:
+            return 1
+        if memo[n] != None:
+            return memo[n]
+        memo[n] = _fib(n-1) + _fib(n-2)
+        # print(memo[n])
+        return memo[n]
+    return _fib(n)
+
+for i in range(35):
+    print(memo_fib(i))
+# for i in range(35):
+#     print(memo_fib(i))
+
+merge_list = [17, 11, 12, 5, 14, 9, 6, 16, 4, 10, 1, 19, 13, 15, 0, 2, 3, 18, 7, 8] 
+
+# 与えられた配列を二つに分割
+# 二つの部分配列をmerge_sortでソート
+# 得られた二つのソート済み配列をマージ
+def merge_sort(arr):
+    mid = len(arr) // 2
+    return merge_sort(arr[:])    
