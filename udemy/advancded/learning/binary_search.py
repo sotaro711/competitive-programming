@@ -102,12 +102,76 @@ class BinarySearchTree:
             print(node.value)
             self.inorder(node.right)
 
+    # データを探索できるまで処理を繰り返す
+    # 接点と探索するデータを比較する
+    # 接点と等しければYesと出力して探索を終了
+    # 接点の方が大きければ探索範囲を左に、小さければ右に
+    # 探索範囲に接点がなければNoを出力
+
+    def search(self, key):
+        node = self.root
+        while True:
+            if node.value == key:
+                print("yes")
+                return
+            elif node.value > key:
+                node = node.left
+            else:
+                node = node.right
+            if node is None:
+                print("no")
+                return
+            
+    # 削除メソッド
+    # 探索を行い、削除対象の接点を見つける
+    # 削除対象の接点の子が0個の場合
+    #   削除対象の接点を削除する
+    # 削除対象の接点が1個の場合
+    #   削除対象の接点の場所を、削除対象の接点の部分木で置き換える
+    # 削除対象の接点の子が２個の場合
+    #   削除対象の節点のみぎの部分木の最小値mを削除して、削除対象の節点をmで上書きする
+
+    def delete(self, key):
+        node = self.root
+
+        while True:
+            if node is None:
+                print("削除対象の接点がありません")
+                return
+            
+        # 削除対象の接点が見つかった時の処理
+        if node.value == key:
+            # 子を持たない場合
+            if node.left is None and node.right is None:
+                # 接点が左の子なら
+                if flag == "left": 
+                    parent.left = None
+                # 接点が右の子なら
+                else:
+                    parent.right = None
+            
+            # 子を一つ持ち、それが右の子の場合
+            elif node.left is None:
+                
+
+        # 削除対象の節点の探索と親子の更新
+        parent = node
+        if node.value > key:
+            node = node.left
+            flag = "left"
+        else:
+            node = node.right
+            flag = "right"
+
+
 t = BinarySearchTree(7)
 t.insert(3)
 t.insert(9)
 t.insert(1)
 t.insert(5)
-t.inorder(t.root)
+t.search(5)
+t.search(8)
+t.search(1)
 
 # 中間順巡回　=> 昇順に表示
 # 左の部分着をinorderで中間順巡回
