@@ -56,12 +56,31 @@ class BinarySearchTree:
                 node = node.left
            elif node.value <= key:
                 if node.right is None:
-                    node.right = key
+                    node.right = Node(key)
                     return
                 node = node.right
-        
+    
+    # 中間順巡回
+    # 再起的な処理
+    # 左の部分木中間順巡回
+    # 根を出力
+    # 右の部分木を中間順巡回
+    def inorder(self, node):
+        if node is None:
+            return
+        else:
+            self.inorder(node.left)
+            print(node.value)
+            self.inorder(node.right)
+    
+    # インスタンス.search(5)
+    # 5が二分探索木に含まれていたらyes, 含まれない場合はno
+    # データを探索できるまで
+    def search(self, )
+
 t = BinarySearchTree(7)
 t.insert(3)
 t.insert(9)
 t.insert(1)
 t.insert(5)
+t.inorder(t.root)
