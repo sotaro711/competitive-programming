@@ -22,6 +22,9 @@
 # list =  [1, 2, 5, 8, 10]
 # print(binary_search(list))
 
+from collections import deque
+
+
 class Node:
   def __init__(self, value):
     self.value = value
@@ -75,12 +78,83 @@ class BinarySearchTree:
     
     # インスタンス.search(5)
     # 5が二分探索木に含まれていたらyes, 含まれない場合はno
-    # データを探索できるまで
-    def search(self, )
+    # データを探索できるまで繰り返す
+    #   節点とデータを比較
+    #       等しければ][yes]と出力
+    #       接点の方が大きかったら左に
+    #       接点の方が大きかったらmigiに 
+    #       なければno
+    def search(self, key):
+        node = self.root
+        while True:
+            if node.value == key:
+                print("yes")
+                return
+            elif node.value > key:
+                node = node.left
+            else:
+                node = node.right
+            if node is None:
+                print("no")
+                return 
 
-t = BinarySearchTree(7)
-t.insert(3)
-t.insert(9)
-t.insert(1)
-t.insert(5)
-t.inorder(t.root)
+#解答はこの下に記入
+# 深さ優先探索
+# d = deque()
+# d.append("A")
+# d.append("B")
+# d.append("C")
+# print(d)
+
+# print(d.pop())
+# print(d)
+# print(d.popleft())
+
+# スタック (深さ優先探索 depth first search)
+# 二分木の根をスタックにpush
+# Sがからでないなら以下を繰り返す
+#   popしてprint
+#       popした根に左の根があればpush
+#       popした根に右の子があればpush
+
+bt = ((((),"A3",()),"A2",((),"B3",())),"A1",(((),"C3",()),"B2",((),"D3",())))
+
+def dfs(t): 
+    s = deque()
+    s.append(t)
+    # print("bt", s)
+    while len(s) > 0:
+        l, p, r = s.pop()
+        print(p)
+        if len(l) > 0:
+            s.append(l)
+        if len(r) > 0:
+            s.append(r)
+
+# dfs(bt)
+
+# dfs(bt)
+
+# 幅優先探索　(breadth first search)
+def bfs(t):
+    q = deque()
+    q.append(t)
+    while len(q) > 0:
+        l, p, r = q.popleft()
+        print(p)
+        if len(l) > 0:
+            q.append(l)
+        if len(r) > 0:
+            q.append(r)
+
+bfs(bt)
+
+# t = BinarySearchTree(7)
+# t.insert(3)
+# t.insert(9)
+# t.insert(1)
+# t.insert(5)
+# t.inorder(t.root)
+# t.search(5)
+# t.search(4)
+# t.search(9)
