@@ -49,4 +49,4 @@ int main() {
         dp[i] = min(dp[i-1] + A[i], dp[i-2] + B[i]);
         
     }
-}s
+}
