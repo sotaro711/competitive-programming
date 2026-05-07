@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdbool.h>
 
+// dp[60]だと0 - 59までしか扱えないのでdp[60]ではエラーになってしまうためdp[69]まで定義！
 bool dp[69][100009];
 int N, S, A[10009];
 
