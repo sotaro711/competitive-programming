@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+// intは2.1 * 10^9 までしか抑えられないので、10^9が出てきたらlong long でいいかも
 long long N, W, w[109], v[109], dp[109][100009];
 
 int main () {
