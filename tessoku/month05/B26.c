@@ -22,6 +22,9 @@ int main() {
 
     for (int i = 2; i * i <= N; i++) {
         if (Deleted[i] == true) continue;
+        // i = 3の時
+        // 3, 6, 9, 12, 15, ...　を消したいから
+        // j = 2 * 3 = 6スタートのi(3)ずつ増やしてtrueにしていく
         for (int j = 2*i; j <= N; j += i) {
             Deleted[j] = true;
         }
