@@ -10,7 +10,7 @@ bool visited[100009];
 
 void dfs(int pos) {
     visited[pos] = true;
-    for (int i = 0; i <= (int)G[pos].size(); i++) {
+    for (int i = 0; i < (int)G[pos].size(); i++) {
         int nex = G[pos][i];
         if (visited[nex] == false) dfs(nex);
     }
@@ -41,9 +41,9 @@ int main() {
 
     string Answer = "The graph is connected.";
 
-    for (int i = 0; i <= N; i++){
+    for (int i = 1; i <= N; i++){
         if (visited[i] == false) {
-            Answer = "The graph is connected.";
+            Answer = "The graph is not connected.";
         }
     }
 
