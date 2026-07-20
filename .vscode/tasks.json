@@ -2,9 +2,10 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: clang アクティブなファイルのビルド",
-            "command": "/usr/bin/clang",
+            "label": "C/C++: clang++ アクティブなファイルのビルド",
+            "command": "/usr/bin/clang++",
             "args": [
+                "-std=c++17",
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "-g",
@@ -22,11 +23,11 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "デバッガーによって生成されたタスク。"
+            "detail": "C++ファイル用のビルドタスク。"
         },
         {
             "type": "cppbuild",
-            "label": "C/C++: clang++ アクティブなファイルのビルド",
+            "label": "C/C++: clang アクティブなファイルのビルド",
             "command": "/usr/bin/clang",
             "args": [
                 "-fcolor-diagnostics",
@@ -43,7 +44,7 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "デバッガーによって生成されたタスク。"
+            "detail": "Cファイル用のビルドタスク。"
         }
     ],
     "version": "2.0.0"
