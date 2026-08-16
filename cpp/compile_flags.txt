@@ -1,0 +1,6 @@
+-std=gnu++23
+-Wall
+-isystem
+/opt/homebrew/opt/gcc/include/c++/16
+-isystem
+/opt/homebrew/opt/gcc/include/c++/16/aarch64-apple-darwin25
