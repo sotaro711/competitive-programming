@@ -35,7 +35,6 @@ using namespace std;
 //     return 0;
 // }
 
-
 int main() {
     int N;
     cin >> N;
@@ -56,3 +55,5 @@ int main() {
 
     return 0;
 }
+
+// 連想配列の勉強

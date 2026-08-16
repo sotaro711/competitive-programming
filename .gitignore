@@ -1,0 +1,9 @@
+# Rust build artifacts (huge; never commit)
+rust/target/
+
+# C build artifacts
+*.o
+a.out
+
+# macOS
+.DS_Store

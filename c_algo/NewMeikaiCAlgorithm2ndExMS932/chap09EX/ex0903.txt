@@ -1,0 +1,13 @@
+演習9-3の解答
+
+　関数FreeTreeが以下のように定義されているとどうなるでしょうか。
+
+void FreeTree(BinNode *p) {
+	if (p != NULL) {
+		FreeTree(p->left);
+		free(p);
+		FreeTree(p->right);
+	}
+}
+
+　現在着目しているノードであるpを解放すると、p->rightに正しくアクセスできなくなります。そのため、p->rightの指す記憶域の解放が行えなくなります。

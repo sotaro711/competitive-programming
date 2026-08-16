@@ -1,0 +1,51 @@
+[package]
+name = "abc428"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.cargo-compete.bin]
+abc428-a = { alias = "a", problem = "https://atcoder.jp/contests/abc428/tasks/abc428_a" }
+abc428-b = { alias = "b", problem = "https://atcoder.jp/contests/abc428/tasks/abc428_b" }
+abc428-c = { alias = "c", problem = "https://atcoder.jp/contests/abc428/tasks/abc428_c" }
+abc428-d = { alias = "d", problem = "https://atcoder.jp/contests/abc428/tasks/abc428_d" }
+abc428-e = { alias = "e", problem = "https://atcoder.jp/contests/abc428/tasks/abc428_e" }
+abc428-f = { alias = "f", problem = "https://atcoder.jp/contests/abc428/tasks/abc428_f" }
+abc428-g = { alias = "g", problem = "https://atcoder.jp/contests/abc428/tasks/abc428_g" }
+
+[[bin]]
+name = "abc428-a"
+path = "src/bin/a.rs"
+
+[[bin]]
+name = "abc428-b"
+path = "src/bin/b.rs"
+
+[[bin]]
+name = "abc428-c"
+path = "src/bin/c.rs"
+
+[[bin]]
+name = "abc428-d"
+path = "src/bin/d.rs"
+
+[[bin]]
+name = "abc428-e"
+path = "src/bin/e.rs"
+
+[[bin]]
+name = "abc428-f"
+path = "src/bin/f.rs"
+
+[[bin]]
+name = "abc428-g"
+path = "src/bin/g.rs"
+
+[dependencies]
+proconio = "=0.5.0"
+itertools = "=0.14.0"
+num = "=0.4.3"
+ac-library-rs = "=0.2.0"
+rand = "=0.9.2"
+regex = "=1.11.2"
+
+[dev-dependencies]
