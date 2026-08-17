@@ -24,6 +24,9 @@ abc471/
 ```
 
 - 過去問の復習も同じコマンドでよい（例: `acc new abc430`）
+- 常設コンテストも同じ。鉄則本（競技プログラミングの鉄則 演習問題集）は
+  `acc new tessoku-book` で全151問（`a01/` 〜）が一括で落ちる
+- 同名のディレクトリが既にあると `acc new` は失敗する。取り直すなら先に消す
 - コンテスト開始前は問題が非公開なので失敗する。開始後にやり直す
   （中途半端にフォルダができていたら消してから再実行）
 
@@ -58,6 +61,36 @@ pbcopy < main.cpp    # コードをコピー
 提出ページ（`https://atcoder.jp/contests/abc471/submit`）を開いて、
 問題と言語（C++23 (GCC)）を選び、⌘V で貼り付けて提出ボタンを押す。
 言語は前回の選択が記憶される。
+
+## 4. 復習・解き直し
+
+一度落としたディレクトリには `main.cpp` と `tests/` が残っているので、
+**`main.cpp` を作り直す必要はない**。`cd` して編集し直して `ojt` するだけ。
+
+白紙のテンプレートから解き直したいときは `ojreset`：
+
+```sh
+cd abc471/b
+mv main.cpp ac_1st.cpp   # 前の解答を残す場合（不要なら省略）
+ojreset                  # main.cpp をテンプレートで上書き
+```
+
+`ojreset` も `.zshrc` に定義済みのエイリアス：
+
+```sh
+alias ojreset='cp "$(acc config-dir)/cpp/main.cpp" main.cpp'
+```
+
+`$(acc config-dir)` は acc の設定ディレクトリ
+（`~/Library/Preferences/atcoder-cli-nodejs`）に展開される。
+テンプレート本体はその下の `cpp/main.cpp`。中身を見たいときは：
+
+```sh
+cat "$(acc config-dir)/cpp/main.cpp"
+```
+
+**`ojreset` は `main.cpp` を問答無用で上書きする**ので、
+残したい解答があるなら先にリネームしておくこと。
 
 ## トラブルシューティング
 
