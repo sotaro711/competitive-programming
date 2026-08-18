@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "awc0136",
+    "title": "AtCoder Weekday Contest 0136 Beta",
+    "url": "https://atcoder.jp/contests/awc0136"
+  },
+  "tasks": [
+    {
+      "id": "awc0136_a",
+      "label": "A",
+      "title": "Deduplicated Log",
+      "url": "https://atcoder.jp/contests/awc0136/tasks/awc0136_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "awc0136_b",
+      "label": "B",
+      "title": "Factory Order Processing",
+      "url": "https://atcoder.jp/contests/awc0136/tasks/awc0136_b",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "awc0136_c",
+      "label": "C",
+      "title": "Skyline View",
+      "url": "https://atcoder.jp/contests/awc0136/tasks/awc0136_c",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "awc0136_d",
+      "label": "D",
+      "title": "Optimizing Work Groups",
+      "url": "https://atcoder.jp/contests/awc0136/tasks/awc0136_d",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "awc0136_e",
+      "label": "E",
+      "title": "Print Factory Schedule",
+      "url": "https://atcoder.jp/contests/awc0136/tasks/awc0136_e",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}
