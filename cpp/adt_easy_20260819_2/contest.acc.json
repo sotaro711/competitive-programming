@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260819_2",
+    "title": "AtCoder Daily Training EASY 2026/08/19 18:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260819_2"
+  },
+  "tasks": [
+    {
+      "id": "abc464_a",
+      "label": "A",
+      "title": "Decisive Battle",
+      "url": "https://atcoder.jp/contests/adt_easy_20260819_2/tasks/abc464_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc399_a",
+      "label": "B",
+      "title": "Hamming Distance",
+      "url": "https://atcoder.jp/contests/adt_easy_20260819_2/tasks/abc399_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc233_b",
+      "label": "C",
+      "title": "A Reverse",
+      "url": "https://atcoder.jp/contests/adt_easy_20260819_2/tasks/abc233_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc283_b",
+      "label": "D",
+      "title": "First Query Problem",
+      "url": "https://atcoder.jp/contests/adt_easy_20260819_2/tasks/abc283_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc365_c",
+      "label": "E",
+      "title": "Transportation Expenses",
+      "url": "https://atcoder.jp/contests/adt_easy_20260819_2/tasks/abc365_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

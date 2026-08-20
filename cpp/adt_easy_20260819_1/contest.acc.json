@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260819_1",
+    "title": "AtCoder Daily Training EASY 2026/08/19 16:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260819_1"
+  },
+  "tasks": [
+    {
+      "id": "abc242_a",
+      "label": "A",
+      "title": "T-shirt",
+      "url": "https://atcoder.jp/contests/adt_easy_20260819_1/tasks/abc242_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc338_a",
+      "label": "B",
+      "title": "Capitalized?",
+      "url": "https://atcoder.jp/contests/adt_easy_20260819_1/tasks/abc338_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc323_b",
+      "label": "C",
+      "title": "Round-Robin Tournament",
+      "url": "https://atcoder.jp/contests/adt_easy_20260819_1/tasks/abc323_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc212_b",
+      "label": "D",
+      "title": "Weak Password",
+      "url": "https://atcoder.jp/contests/adt_easy_20260819_1/tasks/abc212_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc330_c",
+      "label": "E",
+      "title": "Minimize Abs 2",
+      "url": "https://atcoder.jp/contests/adt_easy_20260819_1/tasks/abc330_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}
