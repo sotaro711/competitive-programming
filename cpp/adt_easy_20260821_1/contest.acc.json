@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260821_1",
+    "title": "AtCoder Daily Training EASY 2026/08/21 16:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260821_1"
+  },
+  "tasks": [
+    {
+      "id": "abc402_a",
+      "label": "A",
+      "title": "CBC",
+      "url": "https://atcoder.jp/contests/adt_easy_20260821_1/tasks/abc402_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc259_a",
+      "label": "B",
+      "title": "Growth Record",
+      "url": "https://atcoder.jp/contests/adt_easy_20260821_1/tasks/abc259_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc452_b",
+      "label": "C",
+      "title": "Draw Frame",
+      "url": "https://atcoder.jp/contests/adt_easy_20260821_1/tasks/abc452_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc232_b",
+      "label": "D",
+      "title": "Caesar Cipher",
+      "url": "https://atcoder.jp/contests/adt_easy_20260821_1/tasks/abc232_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc226_c",
+      "label": "E",
+      "title": "Martial artist",
+      "url": "https://atcoder.jp/contests/adt_easy_20260821_1/tasks/abc226_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

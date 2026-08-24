@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260821_2",
+    "title": "AtCoder Daily Training EASY 2026/08/21 18:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260821_2"
+  },
+  "tasks": [
+    {
+      "id": "abc297_a",
+      "label": "A",
+      "title": "Double Click",
+      "url": "https://atcoder.jp/contests/adt_easy_20260821_2/tasks/abc297_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc223_a",
+      "label": "B",
+      "title": "Exact Price",
+      "url": "https://atcoder.jp/contests/adt_easy_20260821_2/tasks/abc223_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc272_b",
+      "label": "C",
+      "title": "Everyone is Friends",
+      "url": "https://atcoder.jp/contests/adt_easy_20260821_2/tasks/abc272_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc406_b",
+      "label": "D",
+      "title": "Product Calculator",
+      "url": "https://atcoder.jp/contests/adt_easy_20260821_2/tasks/abc406_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc318_c",
+      "label": "E",
+      "title": "Blue Spring",
+      "url": "https://atcoder.jp/contests/adt_easy_20260821_2/tasks/abc318_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}
