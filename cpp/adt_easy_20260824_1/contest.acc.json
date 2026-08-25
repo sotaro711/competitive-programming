@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260824_1",
+    "title": "AtCoder Daily Training EASY 2026/08/24 16:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260824_1"
+  },
+  "tasks": [
+    {
+      "id": "abc303_a",
+      "label": "A",
+      "title": "Similar String",
+      "url": "https://atcoder.jp/contests/adt_easy_20260824_1/tasks/abc303_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc383_a",
+      "label": "B",
+      "title": "Humidifier 1",
+      "url": "https://atcoder.jp/contests/adt_easy_20260824_1/tasks/abc383_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc353_b",
+      "label": "C",
+      "title": "AtCoder Amusement Park",
+      "url": "https://atcoder.jp/contests/adt_easy_20260824_1/tasks/abc353_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc444_b",
+      "label": "D",
+      "title": "Digit Sum",
+      "url": "https://atcoder.jp/contests/adt_easy_20260824_1/tasks/abc444_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc306_c",
+      "label": "E",
+      "title": "Centers",
+      "url": "https://atcoder.jp/contests/adt_easy_20260824_1/tasks/abc306_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

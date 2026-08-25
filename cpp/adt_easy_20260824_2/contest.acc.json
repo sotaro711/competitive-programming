@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260824_2",
+    "title": "AtCoder Daily Training EASY 2026/08/24 18:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260824_2"
+  },
+  "tasks": [
+    {
+      "id": "abc449_a",
+      "label": "A",
+      "title": "π",
+      "url": "https://atcoder.jp/contests/adt_easy_20260824_2/tasks/abc449_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc245_a",
+      "label": "B",
+      "title": "Good morning",
+      "url": "https://atcoder.jp/contests/adt_easy_20260824_2/tasks/abc245_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc418_b",
+      "label": "C",
+      "title": "You're a teapot",
+      "url": "https://atcoder.jp/contests/adt_easy_20260824_2/tasks/abc418_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc403_b",
+      "label": "D",
+      "title": "Four Hidden",
+      "url": "https://atcoder.jp/contests/adt_easy_20260824_2/tasks/abc403_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc294_c",
+      "label": "E",
+      "title": "Merge Sequences",
+      "url": "https://atcoder.jp/contests/adt_easy_20260824_2/tasks/abc294_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}
