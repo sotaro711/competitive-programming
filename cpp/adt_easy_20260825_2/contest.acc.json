@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260825_2",
+    "title": "AtCoder Daily Training EASY 2026/08/25 18:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260825_2"
+  },
+  "tasks": [
+    {
+      "id": "abc282_a",
+      "label": "A",
+      "title": "Generalized ABC",
+      "url": "https://atcoder.jp/contests/adt_easy_20260825_2/tasks/abc282_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc381_a",
+      "label": "B",
+      "title": "11/22 String",
+      "url": "https://atcoder.jp/contests/adt_easy_20260825_2/tasks/abc381_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc360_b",
+      "label": "C",
+      "title": "Vertical Reading",
+      "url": "https://atcoder.jp/contests/adt_easy_20260825_2/tasks/abc360_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc409_b",
+      "label": "D",
+      "title": "Citation",
+      "url": "https://atcoder.jp/contests/adt_easy_20260825_2/tasks/abc409_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc219_c",
+      "label": "E",
+      "title": "Neo-lexicographic Ordering",
+      "url": "https://atcoder.jp/contests/adt_easy_20260825_2/tasks/abc219_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

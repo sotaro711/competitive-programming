@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260825_1",
+    "title": "AtCoder Daily Training EASY 2026/08/25 16:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260825_1"
+  },
+  "tasks": [
+    {
+      "id": "abc394_a",
+      "label": "A",
+      "title": "22222",
+      "url": "https://atcoder.jp/contests/adt_easy_20260825_1/tasks/abc394_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc306_a",
+      "label": "B",
+      "title": "Echo",
+      "url": "https://atcoder.jp/contests/adt_easy_20260825_1/tasks/abc306_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc237_b",
+      "label": "C",
+      "title": "Matrix Transposition",
+      "url": "https://atcoder.jp/contests/adt_easy_20260825_1/tasks/abc237_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc445_b",
+      "label": "D",
+      "title": "Center Alignment",
+      "url": "https://atcoder.jp/contests/adt_easy_20260825_1/tasks/abc445_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc233_c",
+      "label": "E",
+      "title": "Product",
+      "url": "https://atcoder.jp/contests/adt_easy_20260825_1/tasks/abc233_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}
