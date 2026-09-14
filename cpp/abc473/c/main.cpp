@@ -33,6 +33,7 @@ int main() {
     // 高橋のクラスよりも多い人数のクラスがない時喜ぶ
     // 高橋のクラスが一番大きかったら喜ぶ
 
+    int M = *max_element(cla.begin(), cla.end());
     int ans = 0;
     for (int i = 1; i <= K; i++) {
         cla[i] += 1;
@@ -48,12 +49,21 @@ int main() {
         // それが高橋のクラスよりも大きかったらans++
 
         // これだとO(K^2/)
-        auto max = *max_element(cla.begin() + 1, cla.end());
+        // わざわざO(K)かけてmaxを取り直さない
+        // 最初にmaxを取っておいて、cla[i]のみを+1する
+        // それがmaxより大きかったら喜ぶ
+        // 小さかったら悲しむ
+
+
+
 
 
         // cout << "max: " << max << endl; 
         // int index = distance(cla.begin(), max);
-        if (cla[i] == max) ans++;
+        
+        if (M <= cla[i]) {
+            ans++;
+        }
         cla[i] -= 1;
     }
 

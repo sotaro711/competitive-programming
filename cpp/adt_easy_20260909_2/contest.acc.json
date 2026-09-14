@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260909_2",
+    "title": "AtCoder Daily Training EASY 2026/09/09 18:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260909_2"
+  },
+  "tasks": [
+    {
+      "id": "abc432_a",
+      "label": "A",
+      "title": "Permute to Maximize",
+      "url": "https://atcoder.jp/contests/adt_easy_20260909_2/tasks/abc432_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc455_a",
+      "label": "B",
+      "title": "455",
+      "url": "https://atcoder.jp/contests/adt_easy_20260909_2/tasks/abc455_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc263_b",
+      "label": "C",
+      "title": "Ancestor",
+      "url": "https://atcoder.jp/contests/adt_easy_20260909_2/tasks/abc263_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc465_b",
+      "label": "D",
+      "title": "Parking 2",
+      "url": "https://atcoder.jp/contests/adt_easy_20260909_2/tasks/abc465_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc425_c",
+      "label": "E",
+      "title": "Rotate and Sum Query",
+      "url": "https://atcoder.jp/contests/adt_easy_20260909_2/tasks/abc425_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}
