@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260918_2",
+    "title": "AtCoder Daily Training EASY 2026/09/18 18:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260918_2"
+  },
+  "tasks": [
+    {
+      "id": "abc219_a",
+      "label": "A",
+      "title": "AtCoder Quiz 2",
+      "url": "https://atcoder.jp/contests/adt_easy_20260918_2/tasks/abc219_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc467_a",
+      "label": "B",
+      "title": "Obesity",
+      "url": "https://atcoder.jp/contests/adt_easy_20260918_2/tasks/abc467_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc367_b",
+      "label": "C",
+      "title": "Cut .0",
+      "url": "https://atcoder.jp/contests/adt_easy_20260918_2/tasks/abc367_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc470_b",
+      "label": "D",
+      "title": "Monocolor",
+      "url": "https://atcoder.jp/contests/adt_easy_20260918_2/tasks/abc470_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc460_c",
+      "label": "E",
+      "title": "Sushi",
+      "url": "https://atcoder.jp/contests/adt_easy_20260918_2/tasks/abc460_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

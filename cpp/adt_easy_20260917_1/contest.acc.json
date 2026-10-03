@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260917_1",
+    "title": "AtCoder Daily Training EASY 2026/09/17 16:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260917_1"
+  },
+  "tasks": [
+    {
+      "id": "abc298_a",
+      "label": "A",
+      "title": "Job Interview",
+      "url": "https://atcoder.jp/contests/adt_easy_20260917_1/tasks/abc298_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc434_a",
+      "label": "B",
+      "title": "Balloon Trip",
+      "url": "https://atcoder.jp/contests/adt_easy_20260917_1/tasks/abc434_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc293_b",
+      "label": "C",
+      "title": "Call the ID Number",
+      "url": "https://atcoder.jp/contests/adt_easy_20260917_1/tasks/abc293_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc264_b",
+      "label": "D",
+      "title": "Nice Grid",
+      "url": "https://atcoder.jp/contests/adt_easy_20260917_1/tasks/abc264_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc385_c",
+      "label": "E",
+      "title": "Illuminate Buildings",
+      "url": "https://atcoder.jp/contests/adt_easy_20260917_1/tasks/abc385_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

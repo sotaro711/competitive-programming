@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260924_2",
+    "title": "AtCoder Daily Training EASY 2026/09/24 18:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260924_2"
+  },
+  "tasks": [
+    {
+      "id": "abc401_a",
+      "label": "A",
+      "title": "Status Code",
+      "url": "https://atcoder.jp/contests/adt_easy_20260924_2/tasks/abc401_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc277_a",
+      "label": "B",
+      "title": "^{-1}",
+      "url": "https://atcoder.jp/contests/adt_easy_20260924_2/tasks/abc277_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc232_b",
+      "label": "C",
+      "title": "Caesar Cipher",
+      "url": "https://atcoder.jp/contests/adt_easy_20260924_2/tasks/abc232_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc261_b",
+      "label": "D",
+      "title": "Tournament Result",
+      "url": "https://atcoder.jp/contests/adt_easy_20260924_2/tasks/abc261_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc381_c",
+      "label": "E",
+      "title": "11/22 Substring",
+      "url": "https://atcoder.jp/contests/adt_easy_20260924_2/tasks/abc381_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

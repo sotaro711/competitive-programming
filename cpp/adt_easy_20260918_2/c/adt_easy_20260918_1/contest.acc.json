@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20260918_1",
+    "title": "AtCoder Daily Training EASY 2026/09/18 16:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20260918_1"
+  },
+  "tasks": [
+    {
+      "id": "abc400_a",
+      "label": "A",
+      "title": "ABC400 Party",
+      "url": "https://atcoder.jp/contests/adt_easy_20260918_1/tasks/abc400_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc340_a",
+      "label": "B",
+      "title": "Arithmetic Progression",
+      "url": "https://atcoder.jp/contests/adt_easy_20260918_1/tasks/abc340_a",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc287_b",
+      "label": "C",
+      "title": "Postal Card",
+      "url": "https://atcoder.jp/contests/adt_easy_20260918_1/tasks/abc287_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc422_b",
+      "label": "D",
+      "title": "Looped Rope",
+      "url": "https://atcoder.jp/contests/adt_easy_20260918_1/tasks/abc422_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc466_c",
+      "label": "E",
+      "title": "Count Close Pairs ",
+      "url": "https://atcoder.jp/contests/adt_easy_20260918_1/tasks/abc466_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}
